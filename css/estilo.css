@@ -1,0 +1,187 @@
+*
+{
+	padding:0px;
+	margin:0px;
+	font-family:'Helvetica';
+}
+.navbarS
+{
+	position:fixed;
+	margin: 0px auto;
+	background-color: #1c1c1c;
+	background-color: rgba(28, 28, 28, 1);
+    height: 75px;
+    width: 100%;
+    position: fixed;
+    border-radius: 0px;
+}
+
+.botao{
+    float: right;
+    color: white;
+    width: 80px;
+    position: absolute;
+    transition: 1s;
+    right: 0;
+    top: 0;
+}
+
+.botao p{
+    text-align: right;
+    padding: 0;
+    margin: 24px;
+}
+
+.menu{
+    float: right;
+    height: 900px;
+    width: 0px;
+    background-color: rgba(28, 28, 28, 1);
+    position: absolute;
+    transition: 1s;
+    right: 0;
+    top: 0;
+    -webkit-box-shadow: -3px 4px 22px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: -3px 4px 22px -2px rgba(0,0,0,0.75);
+    box-shadow: -3px 4px 22px -2px rgba(0,0,0,0.75);
+    visibility: hidden;
+    opacity: 0;
+}
+/*
+.botao:hover .menu{
+    width: 250px;
+    transition: 1s;
+}*/
+
+.opcoes{
+    padding-top: 30px;
+}
+
+.opcoes li{
+    list-style: none;
+    padding: 10px;
+}
+
+.opcoes a{
+    text-decoration: none;
+    color: rgba(211, 211, 211, 1);
+    transition: 0.3s;
+}
+
+.opcoes a:hover{
+    color: rgba(211, 211, 211, 0.6);
+    transition: 0.3s;
+}
+
+  #navicon:checked ~ .menu{
+  	width: 250px;
+  	visibility: visible;
+    opacity: 1;
+    transition:1s;
+  }
+
+.botaoMenu {
+	z-index: 999;
+	position: absolute;
+	padding: 25px 10px;
+}
+
+.botaoMenu::after {
+	z-index: 999;
+	content:'MENU';
+	position: absolute;
+}
+#navicon
+{
+	display:none;
+}
+#navicon:checked + label::after{
+	content: 'X';
+  }
+.logomarca
+{
+	position:relative;
+	float:left;
+	padding:20px 10px;
+	transition: margin-top 0s;
+	position: absolute;
+}
+.logomarca a
+{
+	color:#fff;
+	text-style;none;
+	font-size:25px;
+	text-decoration:none;
+	text-align:center;
+	
+}
+.logomarca a:hover
+{
+	cursor:pointer;
+}
+#cabecalho
+{
+	background-color:#3498db;
+	text-align: center;
+	padding:10em 4em 9em 4em;
+	transition-property: margin-bottom;
+	transition-duration: 3s;
+}
+#cabecalho h1
+{
+	font-size:40px;
+	color:#fff;
+}
+.clear
+{
+	clear:both;
+}
+.linha
+{
+	margin-top:30px;
+}
+.linha a
+{
+	text-decoration:none;
+	color:#fff;
+}
+.button.alt :hover
+{
+	background: rgba(255, 255, 255, 0.2);
+	text-decoration: none;	
+	transition: 0.3s;
+}
+.button
+{
+	display:inline-block;
+	padding: 20px 50px;
+	border-radius:0;
+	transition: 0.3s;
+}
+.button.alt
+{
+	background-color:transparent;
+	box-shadow:inset 0 0 0 2px rgba(255, 255, 255, 0.25);
+}
+.button.big
+{
+	font-size:20px;
+}
+#sessao1
+{
+	position:absolute;
+	smargin: 10px;
+	width: 600px;
+    height: 200px;
+}
+.text1
+{
+	position:relative;
+	width:50%;
+	display:block;
+	text-align:right;
+}
+#pezao
+{
+	background-color:#1c1c1c;
+}
